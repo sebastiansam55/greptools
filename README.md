@@ -51,3 +51,15 @@ This Example was made by SamSam
 ```
 
 I use this for templating for pandoc stuff, it can be quite handy at times!
+
+## Notes
+Note that the `json` file needs to follow the `JSON` formatting guidelines exactly or python will throw a bit of a fit. 
+
+This has mostly come up in that you need to make sure not to leave trailing spaces;
+```json
+{
+    "test": "fail",
+}
+```
+
+Will not work because of the "unused" comma at the end of the second line.
