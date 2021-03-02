@@ -10,5 +10,7 @@
     "pfp": "<div class=\"pfp\">",
     "base_filename":["input_file_name"],
     "generated_filename":["output_file_name"],
-    "footer": ["file_content", "footer.md"]
+    "footer": ["file_content", "footer.md"],
+    "rep1": "This ",
+    "rep2": "t"
 }
