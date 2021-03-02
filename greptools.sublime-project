@@ -4,5 +4,13 @@
 		{
 			"path": "."
 		}
-	]
+	],
+    "build_systems":[
+        {
+            "name": "Python test",
+            "selector": "*.py",
+            "shell": true,
+            "cmd": ["python3 $file test.md"]
+        }
+    ]
 }
