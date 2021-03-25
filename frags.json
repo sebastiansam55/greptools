@@ -12,5 +12,6 @@
     "generated_filename":["output_file_name"],
     "footer": ["file_content", "footer.md"],
     "rep1": "This ",
-    "rep2": "t"
+    "rep2": "t",
+    "qrcode": ["script", "./test.py", "title"]
 }
